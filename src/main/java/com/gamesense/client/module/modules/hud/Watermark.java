@@ -39,7 +39,7 @@ public class Watermark extends HUDModule {
 
 		@Override
 		public String getItem(int index) {
-			return "PikkelHack "+ GameSense.MODVER;
+			return "PikkelHack " + GameSense.MODVER;
 		}
 
 		@Override
