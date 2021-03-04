@@ -34,7 +34,7 @@ public class VersionChecker {
         }
 
         try {
-            URL url = new URL("https://raw.githubusercontent.com/Pikkel/gamesense-client/master/version.txt");
+            URL url = new URL("https://raw.githubusercontent.com/IUDevman/gamesense-assets/main/files/versioncontrol.txt");
             Scanner scanner = new Scanner(url.openStream());
 
             String grabbedVersion = scanner.next();
