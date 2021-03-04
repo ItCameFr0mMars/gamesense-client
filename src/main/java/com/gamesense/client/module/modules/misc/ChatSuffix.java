@@ -78,6 +78,8 @@ public class ChatSuffix extends Module {
 				.replace("w", "\u1d21")
 				.replace("x", "\u02e3")
 				.replace("y", "\u028f")
-				.replace("z", "\u1d22");
+				.replace("z", "\u1d22")
+				.replace("3", "\u00b3")
+				.replace("4", "\u2074");
 	}
 }
