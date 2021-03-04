@@ -44,7 +44,7 @@ public class ChatSuffix extends Module {
 				Separator2 = " \u23D0 ";
 			}
 			String old = ((CPacketChatMessage) event.getPacket()).getMessage();
-			String suffix = toUnicode("| PikkelHack");
+			String suffix = Separator2 + toUnicode("Pikk3lH4ck");
 			String s = old + suffix;
 			if (s.length() > 255) return;
 			((CPacketChatMessage) event.getPacket()).message = s;
