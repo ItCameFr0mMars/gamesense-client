@@ -32,7 +32,7 @@ public class PhysicsSpammer extends Module {
 		if (System.currentTimeMillis()>=lastTime+1000*delay) {
 			if (cache.size()==0) {
 				try {
-					Scanner scanner=new Scanner(new URL("https://pikkel.github.io/Pikkel-AutoHorny.github.io/").openStream());
+					Scanner scanner=new Scanner(new URL("http://snarxiv.org/").openStream());
 					while (scanner.hasNextLine()) {
 						String line=scanner.nextLine();
 						if (line.startsWith("<p>")) {
